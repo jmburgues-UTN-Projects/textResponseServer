@@ -15,7 +15,7 @@ public class Response {
             theOutput = "Bye.";
             state = EXIT;
         } else if (state == WAITING) {
-            theOutput = "\nWelcome to JMBS server.Type 'x' at any time to leave.\n<RopHierr>: What`s your name?";
+            theOutput = "\nWelcome to JMBS server. Type 'x' at any time to leave.\n<RopHierr>: What`s your name?";
             state = NAME;
         } else if (state == NAME) {
             theOutput = "\n<RopHierr>: Nice to meet you " + theInput + ". My name is RopHierr, I'm a cypher machine." +
